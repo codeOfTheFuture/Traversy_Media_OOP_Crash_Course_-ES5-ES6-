@@ -35,3 +35,4 @@ const book1 = new Book('Book One', 'John Doe', 2013);
 const book2 = new Book('Book Two', 'Jane Doe', 2016);
 
 console.log(book1.getSummery());
+//Even if you had a thousand book objects you could call getSummery function and it is only defined once.
